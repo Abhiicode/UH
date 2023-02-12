@@ -1,0 +1,7 @@
+.about_container{
+    background: url("../../../public/images/jal-mahla.png") center top no-repeat fixed;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    padding: 40px 0 40px;
+}
