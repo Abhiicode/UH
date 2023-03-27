@@ -1,5 +1,4 @@
-import React from 'react'  
-import Banner1 from "../../../public/images/banner1.jpg"
+import React from 'react'
 const Slider = () => {
     return (
         <>

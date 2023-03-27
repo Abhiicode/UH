@@ -12,7 +12,7 @@ function App() {
     <>
        <BrowserRouter>
         <Routes>
-        <Route exact path="/my-route" element={<DetailPage/>} />
+        <Route exact path="/packages" element={<DetailPage/>} />
         <Route exact path="/" element={<Welcome/>} />
         </Routes>
       </BrowserRouter>

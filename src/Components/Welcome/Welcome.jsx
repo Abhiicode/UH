@@ -4,14 +4,18 @@ import Slider from '../Slider/Slider'
 import Package from '../Packages/Package'
 import About from '../About/About'
 import International from '../International/International'
+import Footer from '../Footer/Footer'
+import WhatsAppFloat from '../WhatsAppFloat/WhatsAppFloat'
 const Welcome = () => {
   return (
     <>
-            <Navbar/>
+            
             <Slider/> 
             <Package/>
             <About/>
-            <International/> 
+            <International/>
+            <Footer/>
+            <WhatsAppFloat/>
     </>
   )
 }

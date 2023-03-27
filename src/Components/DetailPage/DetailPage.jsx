@@ -10,13 +10,23 @@ const DetailPage = () => {
     const [tourParaOne, settourParaOne] = useState("");
     const [tourParaTwo, settourParaTwo] = useState("");
     const [tourPackage, settourPackage] = useState("");
-    console.log(place);
+    const [packageList, setPackageList] = useState([]);
     if(place == "RJ") {
         useEffect(() => {
             settourName("Rajasthan Tour");
             settourParaOne("Rajasthan a Jewel in India’s crown is an Indian state located on its north western side where it comprises the wide and inhospitable desert Thar and shares its borders with Pakistani provinces Punjab and Sindh. The other Indian states sharing borders with it are Punjab, Haryana, Uttar Pradesh, Madhya Pradesh and Gujarat. Often referred as the “Land of Kings” it is a colorful melange of medieval forts, beautiful palaces, delicious cuisines, colorful attires, magnificent wildlife, diverse culture, kaleidoscopic festivals and warm people. Whether you are a history buff, or adventurous safaris attract you or whether you want to explore rich cultural heritage and enjoy colorful festivals, Rajasthan is truly a destination for you. So book your Rajasthan holiday package and enjoy one of the most thrilling holiday experiences of your life.");
             settourParaTwo("A visit to Rajasthan surely leaves you awe-struck with its diversity and amazing beauty and you will surely find several reasons to visit it again and again. Rajasthan is a home to a maximum number of forts and palaces which surly spellbound its visitors with their brilliant architecture the prominent among them are Mehrangarh Fort in Jodhpur, Amer Fort in Jaipur, Jaisalmer Fort and feel stunned with the 36-kilometres long fortification wall of Kumbhalgarh Fort and admire the grand architecture of Chittorgarh Fort etc. The state is equally famous for its exotic wildlife and when it comes to national parks you just can’t afford to miss a visit to Ranthambore National Park and the Sariska National Park. You also love to visit its famous wildlife sanctuaries like Desert National Sanctuary, Jaisalmer, National Chambal Wildlife Sanctuary, Kota and Kumbhalgarh Wildlife Sanctuary etc.");
             settourPackage("Rajasthan Tour Packages");
+            let packages = [
+              {
+                name : "Best of Rajasthan",      
+                duration: "06 Nights/ 07 days",
+                destinations: "2N Jaipur | 2N Jodhpur | 2N Jaisalmer",
+                description: "Day1 Arrive in Jaipur | Day2 Sightseeing in Jaipur ( Amer Fort, Albert Hall Museum, City Palace Jaipur, Hawa Mahal, Jantar Mantar) | Day3 Jaipur to Jodhpur , Sightseeing in Jodhpur( Mehrangarh Fort, Jaswant Thada) | Day4 Sightseeing in Jodhpur ( Umaid Bhawan Palace, Mandore Garden, Osian ) | Day5 Jodhpur to Jaipur | Day6 Sightseeing in Jaisalmer ( Jaisalmer Fort,  Patwaon ki Haveli, Nathmal ki Haveli)"
+              },
+
+          ]
+            setPackageList(packages);
           }, []);
     }
     else if(place == "TJ") {
@@ -34,7 +44,32 @@ const DetailPage = () => {
             settourParaOne("Kerala is one of the south India’s most serenely beautiful state situated on the south western Malabar coast. This coastal strip is bordered by Karnataka, Tamil Nadu, Karnataka and Lakshadweep is affectionately referred as “God’s Own Country” due to its magnetic beauty and amazing network of 44 rivers and turquoise blue backwaters. This pristinely beautiful south eastern part of the country is one of most sought-after tourist destination which is quite famous for its exotic wildlife, emerald green hill stations, network of glistering backwaters, glorious Arabian seacoast, illuminating history and thriving cities make it no less than haven. So make a plan and book Kerala vacation package to enjoy one of the most cherished holiday experiences of your life.");
             settourParaTwo("There are unlimited reasons that compel you to visit this photogenic beauty on planet earth. One of the major attractions in Kerala that draw maximum visitors towards it is backwaters. It is among the most amazing waterways in the world. Quaint houseboats glide across these palm-fringed emerald waterways helps you to capture the glimpses of local life, spot unique flora and fauna and to indulge in lip-smacking cuisines. The best places to head to catch the backwater cruises are Alleppey, Kumarakom, Kollam and Kuttanad. If you are looking for the alluring hill stations in Kerala then do visit Munnar, Ponmudi, Wagamon, Wayanad and Idukki. There breathtaking beauty, tea and spice plantations, nature walks, mountaineering like activities surely leave you spellbound. One of the biggest attractions in Kerala is Ayurveda. It is a home to Ayurvedic treatments and people from far of places come here to get these treatments to feel rejuvenated. There are lots of spas and resorts that offer these rejuvenating and relaxing therapies to gain health benefits. There is more to Kerala than just its natural beauty as it has well preserved its rich cultural heritage which can be witnessed at Kerala Kathakali Center, Kerala Kalamandalam and Folklore Museum etc. If you are a wildlife enthusiast then there is no best place than Kerala as it is a home to 25 wildlife sanctuaries and national parks and is a perfect place for wildlife safaris, bird watching and to spot migratory birds. Some of its popular wildlife sanctuaries are Wayanad Wildlife Sanctuary, Parambikulam Tiger Reserve, Kumarakom Bird Santuary, Periyar National Park etc. The beaches of Kerala are its major crowd pullers. Sheltered coves, lagoons , natural harbour, scenic landscape, coconut trees etc all these combines the beauty of beaches over here, Some of the beaches that you just can’t afford on your Kerala holiday trip are Cherari, Bekal, Marari, Varkala etc. So hurry! Don’t miss an opportunity to visit this heavenly beauty that surely surprise you in its every twist and turn.");
             settourPackage("Kerala Tour Packages");
-            
+            var packages = [
+              {
+                name : "Kerala Tour Package",      
+                duration: "08 Nights/ 09 days",
+                destinations: "Destinations Varkala, Munnar, Thekkady, Cochin, Allepy,Kumarakom,Kovalam"
+              },
+              {
+                name : "Premium 4N",
+                duration: "04 Nights/ 05 days",
+                destinations: "2N Munnar | 1N Thekkady | 1N Alleppey",
+                description: "Day1: Cochin to Munnar Transfer by private car, Sightseeing In Munnar(Valara Waterfalls) | Day2: Sightseeing In Munnar(Tata Tea Museum,Eravikulam national park,Mattupetty Dam,Echo Point) | Day3: Transfer from Munnar to Thekkady, Sightseeing in Thekkady(Periyar Lake,Spice Garden) | Day4: Transfer from Thekkady to Alleppey,Sightseeing in Alleppey(Alappuzha Beach, Mullakkal Rajarajeswari Temple) | Day5: Transfer from Hotel in Alleppey to Cochin"
+              },
+              {
+                name : "Luxury 5N",
+                duration: "05 Nights/ 06 days",
+                destinations: "1N Cochin| 2N Munnar | 1N Thekkady | 1N Alleppey",
+                description: "Day1: Sightseeing in Cochin( Fort Cochin,Jewish Synagogue,Dutch Palace, St. Francis Church,Chinese Fishing Nets) | Day2: Cochin to Munnar Transfer by private car, Sightseeing In Munnar(Valara Waterfalls) | Day3: Sightseeing In Munnar(Tata Tea Museum,Eravikulam national park,Mattupetty Dam,Echo Point) | Day4: Transfer from Munnar to Thekkady, Sightseeing in Thekkady(Periyar Lake,Spice Garden) | Day5: Transfer from Thekkady to Alleppey,Sightseeing in Alleppey(Alappuzha Beach, Mullakkal Rajarajeswari Temple) | Day6: Transfer from Hotel in Alleppey to Cochin"
+              },
+              {
+                name : "Luxury 5N",
+                duration: "06 Nights/ 07 days",
+                destinations: "2N Munnar | 1N Thekkady | 2N Kovalam and  Poovar | 1N Alleppey",
+                description: "Day1: Cochin to Munnar Transfer by private car, Sightseeing In Munnar(Valara Waterfalls) | Day2: Sightseeing In Munnar(Tata Tea Museum,Eravikulam national park,Mattupetty Dam,Echo Point) | Day3: Transfer from Munnar to Thekkady, Sightseeing in Thekkady(Periyar Lake,Spice Garden) | Day4: Transfer from Thekkady to Kovalam and Poovar, Sightseeing(Kovalam: Hawa Beach,Lighthouse Beach) | Day5: Activity in Kovalam and Poovar 8 Hrs(Excursion to Kanyakumari) | Day6: Transer From Kovalam and Poovar to Alleppey, Sightseeing in Alleppey(Alappuzha Beach, Mullakkal Rajarajeswari Temple) | Day7: Transfer from Hotel in Alleppey to Cochin"
+              },
+            ]
+            setPackageList(packages);
           }, []); 
     }
     else if(place=="HP") {
@@ -72,7 +107,7 @@ const DetailPage = () => {
 
   return (
     <>
-        <SubDetailPage tourName = {tourName} tourPackage = {tourPackage} tourParaOne = {tourParaOne} tourParaTwo = {tourParaTwo}  />
+        <SubDetailPage tourName = {tourName} tourPackage = {tourPackage} tourParaOne = {tourParaOne} tourParaTwo = {tourParaTwo} packageList = {packageList}  />
     </>
   )
 }

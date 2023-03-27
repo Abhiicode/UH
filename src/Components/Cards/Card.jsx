@@ -9,8 +9,8 @@ const Card = (props) => {
     const navigate = useNavigate(); 
 
     function handleClick(value) {
-        console.log(`/my-route/:state?${value}`);
-        navigate('/my-route',{state:{place:`${value}`}}); 
+        //console.log(`/my-route/:state?${value}`);
+        navigate('/packages',{state:{place:`${value}`}}); 
         // Replace '/my-route' with the actual route you want to redirect to
         // navigate('/my-route', { state: { optionalParam: 'rajasthan' } });
     }
