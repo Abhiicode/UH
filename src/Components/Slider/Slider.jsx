@@ -13,31 +13,35 @@ const Slider = () => {
                     <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src="../../../public/images/banner1.jpg" alt="First slide" />
+                        <img className="d-block w-100" src="/images/sitelogo.jpg" alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="../../../public/images/banner2.jpg" alt="Second slide" />
+                        <img className="d-block w-100" src="/images/banner1.jpg" alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="../../../public/images/banner3.jpg" alt="Third slide" />
+                        <img className="d-block w-100" src="/images/banner2.jpg" alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="../../../public/images/banner4.jpg" alt="Third slide" />
+                        <img className="d-block w-100" src="/images/banner3.jpg" alt="Third slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="../../../public/images/banner5.jpg" alt="Third slide" />
+                        <img className="d-block w-100" src="/images/banner4.jpg" alt="Third slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="../../../public/images/banner6.jpg" alt="Third slide" />
+                        <img className="d-block w-100" src="/images/banner5.jpg" alt="Third slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="../../../public/images/banner7.jpg" alt="Third slide" />
+                        <img className="d-block w-100" src="/images/banner6.jpg" alt="Third slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src="../../../public/images/banner8.jpg" alt="Third slide" />
+                        <img className="d-block w-100" src="/images/banner7.jpg" alt="Third slide" />
+                    </div>
+                    <div className="carousel-item">
+                        <img className="d-block w-100" src="/images/banner8.jpg" alt="Third slide" />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
