@@ -19,10 +19,16 @@ const DetailPage = () => {
             settourPackage("Rajasthan Tour Packages");
             let packages = [
               {
+                name : "Megical Nights In Udaipur ",      
+                duration: "03 Nights/ 04 days",
+                destinations: "3N Udaipur",
+                description: "Day1 Arrive in Udaipur | Day2 Sightseeing in Udaipur ( City Palace Udaipur, Saheliyon ki Bari, Maharana Pratap Smarak, , Museum of Folks Art,  Vintage Car Museum, Crystal Gallery ) | Day3 Sightseeing in Udaipur , ( Fateh Sagar Lake, Sajjangarh Palace, ) | Day4   Departure from Udaipur"
+              },
+              {
                 name : "Best of Rajasthan",      
                 duration: "06 Nights/ 07 days",
                 destinations: "2N Jaipur | 2N Jodhpur | 2N Jaisalmer",
-                description: "Day1 Arrive in Jaipur | Day2 Sightseeing in Jaipur ( Amer Fort, Albert Hall Museum, City Palace Jaipur, Hawa Mahal, Jantar Mantar) | Day3 Jaipur to Jodhpur , Sightseeing in Jodhpur( Mehrangarh Fort, Jaswant Thada) | Day4 Sightseeing in Jodhpur ( Umaid Bhawan Palace, Mandore Garden, Osian ) | Day5 Jodhpur to Jaipur | Day6 Sightseeing in Jaisalmer ( Jaisalmer Fort,  Patwaon ki Haveli, Nathmal ki Haveli)"
+                description: "Day1 Arrive in Jaipur | Day2 Sightseeing in Jaipur ( Amer Fort, Albert Hall Museum, City Palace Jaipur, Hawa Mahal, Jantar Mantar) | Day3 Jaipur to Jodhpur , Sightseeing in Jodhpur( Mehrangarh Fort, Jaswant Thada) | Day4 Sightseeing in Jodhpur ( Umaid Bhawan Palace, Mandore Garden, Osian ) | Day5 Jodhpur to Jaisalmer | Day6 Sightseeing in Jaisalmer ( Jaisalmer Fort,  Patwaon ki Haveli, Nathmal ki Haveli)"
               },
 
           ]
@@ -35,6 +41,16 @@ const DetailPage = () => {
             settourParaOne("Rajasthan a Jewel in India’s crown is an Indian state located on its north western side where it comprises the wide and inhospitable desert Thar and shares its borders with Pakistani provinces Punjab and Sindh. The other Indian states sharing borders with it are Punjab, Haryana, Uttar Pradesh, Madhya Pradesh and Gujarat. Often referred as the “Land of Kings” it is a colorful melange of medieval forts, beautiful palaces, delicious cuisines, colorful attires, magnificent wildlife, diverse culture, kaleidoscopic festivals and warm people. Whether you are a history buff, or adventurous safaris attract you or whether you want to explore rich cultural heritage and enjoy colorful festivals, Rajasthan is truly a destination for you. So book your Rajasthan holiday package and enjoy one of the most thrilling holiday experiences of your life.");
             settourParaTwo("A visit to Rajasthan surely leaves you awe-struck with its diversity and amazing beauty and you will surely find several reasons to visit it again and again. Rajasthan is a home to a maximum number of forts and palaces which surly spellbound its visitors with their brilliant architecture the prominent among them are Mehrangarh Fort in Jodhpur, Amer Fort in Jaipur, Jaisalmer Fort and feel stunned with the 36-kilometres long fortification wall of Kumbhalgarh Fort and admire the grand architecture of Chittorgarh Fort etc. The state is equally famous for its exotic wildlife and when it comes to national parks you just can’t afford to miss a visit to Ranthambore National Park and the Sariska National Park. You also love to visit its famous wildlife sanctuaries like Desert National Sanctuary, Jaisalmer, National Chambal Wildlife Sanctuary, Kota and Kumbhalgarh Wildlife Sanctuary etc.");
             settourPackage("Golden Triangle Tour Packages");
+            let packages = [
+              {
+                name : "Golden Triangle",      
+                duration: "04 Nights/ 05 days",
+                destinations: "1N Delhi | 1N Agra | 2N Jaipur",
+                description: "Day1 Arrive in Delhi | Sightseeing in Delhi ( India Gate, , Raj Ghat, Red Fort, Akshardham Mandir) | Day2 Delhi To Agra , Sightseeing in Agra ( Marble inlay, Taj Mahal) | Day3 Agra to Jaipur via Fatehpur Sikri  ( En route to Jaipur, you can take a short stopover at Fatehpur Sikri - the capital of the Mughal Empire also known as the city of Victory. ) | Day4 Sightseeing in Jaipur ( Amber Fort, Jal Mahal, Aravali Hill, Hawa Mahal) | Day5 Jaipur To Delhi"
+              },
+              
+          ]
+            setPackageList(packages);
           }, []);
     }
     else if(place=="KR") {
@@ -79,6 +95,28 @@ const DetailPage = () => {
             settourParaOne("Affectionately referred as “Dev Bhoomi” or “Land of God”, Himachal Pradesh is a state in the northern part of India situated in the Western Himalayas. Bordered by Jammu and Kashmir, Punjab, Haryana, Uttarakhand, Himachal is renowned for its spectacular beauty, snowy peaks and plunging river valleys. It’s every turn takes you to the new valley which brings you into a different world which has its own culture, deities and language.");
             settourParaTwo("Amazing hill stations, unlimited adventure opportunities, fairy-tale architecture, easy going people, and colonial echoes make it truly a perfect holiday destination that you must visit. So book your holiday package to Himachal Pradesh and enjoy one of the most cherished holidays of your life. There is no dearth of reasons that compel you to visit this amazing beauty. Start your sightseeing trip to Himachal Pradesh with a visit to Shimla its capital. Dotted with shops, restaurants, colonial legacy and ever vibrant Mall Road are some of the places where you can spend quality of time. The Jakhoo Temple, Chadwick Falls, Tudor Library etc are some other attractions that you surely love to visit. If you are in search of peace and tranquillity which is full natural beauty as well then do visit Khajjiar which is also referred as “Mini Switzerland” due to its green pastures, dense forests and sprinkling lakes. Perched at an altitude of 6,500 ft, this place is famous for the nine-golf course and lots of adventurous activities like trekking, paragliding, horse riding and the most popular Khajjiar Lake. Don’t miss a visit to ever charming hill station Dalhousie which evokes the nostalgic memories of British Rule and is quite famous for its colonial architecture. Gifted with a diverse variety of vegetation, rich architectural legacy and magnificent churches the other major attractions of Dalhousie includes St. John Church, St. Francis Church, Subash Baoli, Bakrota Hills and Kalatope. The lovely, spiritual and peaceful Dharmashala is on the wish list of every travellers who visit Himachal Pradesh. This hill station is just 17 Km northeast of Kangra Town is encircled with snow capped mountains on three sides and it gained its fame as “ The Little Lhasa in India” became quite popular among visitors due to His Holiness the Dalai Lama. Its major attractions include the Kangra Art Museum, various Buddhist monasteries, Baijnath Shiv Temple and St. John’s Church etc.");
             settourPackage("Himachal Tour Packages");
+
+            let packages = [
+              {
+                name : "Exotic Trip to Manali & Kasol ",      
+                duration: "05 Nights/ 06 days",
+                destinations: "3N Manali | 2N Kasol ",
+                description: "Day1 New Delhi to Manali | Sightseeing in Manali ( Pandoh Dam ) | Day2 Sightseeing in Manali ( Hadimba Temple, Tibetan Monastery, Vashishth Kund) | Day3 Sightseeing in Manali ( Solang Valley, Rohtang Pass  ) | Day4 Manali to Kasol | Day5 Sightseeing in Kasol (  Manikaran,  Hote water Sprigs) | Day6 Kasol to New Delhi"
+              },
+              {
+                name : "Amazing Himachal ",      
+                duration: "09 Nights/ 10 days",
+                destinations: "2N Shimla | 3N Manali | 2N Dharamshala | 2N Dalhousie ",
+                description: "Day1 New Delhi to Shimla | Day2 Sightseeing in Shimla (  Scandal Point,  Gaiety Theatre, Townhall,  Shimla Church, Kufri, Mall Road) | Day3 Shimla to Manali | Day4 Sightseeing in Manali ( Hadimba Temple, Tibetan Monastery, Vashishth Kund ) | Day5 Sightseeing in Manali ( Solang Valley, Rohtang Pass  ) | Day6 Manali to Dharamshala | Day7 Sightseeing in Dharamshala ( Bhagsu falls, War Memorial ) | Day8 Dharamshala to Dalhousie | Sightseeing in Dalhousie ( Panchpula, Subash Baoli, St. John's Church,  St. Francis Church ) | Day9 Sightseeing in Dalhousie ( Khajjiar ) | Day10 Dalhousie to Delhi "
+              },
+              {
+                name : "SHIMLA MANALI ",      
+                duration: "05 Nights/ 06 days",
+                destinations: "2N Shimla | 3N Manali ",
+                description: "Day1 New Delhi to Shimla | Day2 Sightseeing in Shimla (  Scandal Point,  Gaiety Theatre, Townhall,  Shimla Church, Kufri, Mall Road) | Day3 Shimla to Manali | Day4 Sightseeing in Manali ( Hadimba Temple, Tibetan Monastery, Vashishth Kund ) | Day5 Sightseeing in Manali ( Solang Valley, Rohtang Pass  ) | Day6 Manali to Delhi "
+              },
+          ]
+            setPackageList(packages);
           }, []);
         
     }
@@ -89,16 +127,40 @@ const DetailPage = () => {
             settourParaOne("Jammu and Kashmir the northern most state of India is one of the pristinely beautiful places on planet Earth. It shares its borders with Himachal Pradesh, Punjab, and nearing countries like China, Pakistan and Afghanistan. The state consist mainly three regions, Jammu, Kashmir Valley and Ladakh. The long stretches of frivolous snow-capped mountains, pastures of green meadow, shimmering lakes are among its many vistas that prevails in the land and attract visitors from all corners of the world to visit it once in their lifetime. Book yuou Jammu and Kashmir holiday package and enjoy some of the best time of your life in the Lap of Mother Nature that rejuvenates you and offers an impeccable peace of mind. There are uncountable reasons that compel visitors to visit this majestically beautiful tourist destination and enjoy fun-packed holidays.");
             settourParaTwo("Srinagar the capital is one of the prized possessions of Kashmir that reflects authentic colors of Jammu and Kashmir. Enjoy the Shikara ride on Dal Lake or stay for a night at houseboat to spend some leisure time in the Lap of Mother Nature. There are lots of religious places that you surely love to visit which include the Hazratbal Shrine and Shankracharya Temple. You just can’t afford to miss a visit to pristinely beautiful Mughal Gardens the Shalimar Bagh, Nishat Bagh and Chashme Shahi are among the most popular tourist attractions in Jammu and Kashmir. Dubbed as the skier’s paradise, Gulmarg is among the best places to be visited in Jammu and Kashmir. Popularly known as “Meadows of Flowers” this popular holiday spot is located at a distance of 52 Km from Srinagar is no less than a haven for adventure enthusiasts. Do enjoy a visit to Nagin Valley, Khilanmarg frozen lake, Bota Pathri and enjoy Gulmarg Gandola a cable car ride to enjoy the mesmerizing beauty of the surroundings. You surely enjoy an enthralling expedition to Kathua which is also dubbed as the “:City of Sufis “ due to large number of religious places such as Jasrota Temple, Mata Bala Sundri, Sapt Sarovar, Airwin Temple, Mata Sundrikote etc. offer its visitors a spiritual experience which they cherish throughout their life. Other popular place to visit in J&K is Pahalgam. The green meadow and lofty mountains followed by tranquality and serenity are just waiting for you in Pahalgam. Visit the Aru Valley, Betaab Valley, Baisaran, Sheshnag Lake etc and enjoy plenty of recreational activities like trekking, horse riding, golf etc. A trip to J&K is incomplete without a visit to Sonamarg, the kingdom of unspoiled beauty.");
             settourPackage("Jammu And Kashmir Tour Packages");
+            let packages = [
+              {
+                name : "Heavenly Kashmir ",      
+                duration: "06 Nights/ 07 days",
+                destinations: " 1N Srinagar | 1N Sonmarg | 2N Pahalgam | 2N Srinagar",
+                description: "Day1  Arrival in Srinagar | Airport to hotel in Srinagar ( Activity : Shikara ride at Dal Lake ) | Day2  Srinagar to Sonmarg  | Day3 Sonmarg to Pahalgam , Sightseeing in  Pahalgam ( Avantipura Ruins, Cricket Bat Factory Visit ) | Day4 In Pahalgam | Day5 Pahalgam to Sri Nagar , Sightseeing in Srinagar ( Cheshma Shahi,  Nishat Bagh, Shalimar Garden, Shankaracharya Temple, Activity : Shikara ride at Dal Lake ) | Day6 Sightseeing in Srinagar ( Sonmarg ) | Day7 Departure from Srinagar"
+              },
+              {
+                name : "Kashmir Holiday - Honeymoon Special",      
+                duration: "06 Nights/ 07 days",
+                destinations: "2N Gulmarg | 2N Pahalgam | 2N Srinagar",
+                description: "Day1  Arrival in Srinagar |  Srinagar to hotel in Gulmarg | Day2 In Gulmarg  | Day3 Gulmarg to  Pahalgam , Sightseeing in  Pahalgam ( Avantipura Ruins, Cricket Bat Factory Visit ) | Day4 In Pahalgam | Day5 Pahalgam to Sri Nagar , Sightseeing in Srinagar ( Cheshma Shahi,  Nishat Bagh, Shalimar Garden, Shankaracharya Temple, Activity : Shikara ride at Dal Lake ) | Day6 Sightseeing in Srinagar ( Sonmarg ) | Day7 Departure from Srinagar"
+              },
+          ]
+            setPackageList(packages);
           }, []); 
         
     }
     else {
         useEffect(() => {
             // Run! Like go get some data from an API.
-            settourName("Gujarat Tour");
-            settourParaOne("Gujarat is one of the most adorable state on the western coast of India is the sixth largest state by area and the ninth by population. With capital city Gandhi Nagar and the largest city Ahmedabad it was the mystical kingdom of Lord Krishna and the birth place of father of nation, Mahatma Gandhi. It is the third richest state in the country which is bordered by Rajasthan, Daman and Diu, Dadra and Nagar Haveli, Maharashtra, Madhya Pradesh and the Arabian Sea. The state has a long and rich history with the settlement dating back to the Stone Age and is quite famous for its famous remains of the Bronze Age Indus Valley civilization. Unique wildlife, colorful festivals, delectable cuisines, iconic temples, historic palaces and tombs and important pilgrimage sites make it a destination that one should visit once in a lifetime. So book your holiday packages to Gujarat now and enjoy a great holiday trip with your loved ones.");
-            settourParaTwo("Enjoy your vacations in Gujarat with a visit to its important pilgrimage sites such as Somanath Temple, the Palitana Temple which is a cluster of 800 marble Jain temples located on Shatrunjaya hill near Palitana, a sacred site to Shwetanbra Jains and Of course the Dwarkadeesh Temple. If you are a wildlife enthusiast then Gir National Park is one of the best places to visit where Asiatic lion roars. Visit Gir and embark on a wildlife safari to capture the glimpses of exotic flora and fauna and spot these tigers freely roaming in the wilderness. One cannot afford to miss the iconic sun temple at Modhera. Built in 1026 CE by Solanki King Bhimdev I, this temple is around 1000 year old and is a classic example of Solanki architecture. Do visit the Sabarmati Ashram the second ashram of Mahatma Gandhi and the center of Indian freedom struggle. Being the source of inspiration to the coming generations the ashram stands as a monument to Gandhi’s life mission. There is an open-air museum as well that presents informative records of his life and teachings. You surely enjoy a visit to Rani Ki Vav or Queen’s stepwell, a UNESCO World Heritage site dating back to 11th century was also constructed during the Solanki dynasty.");
-            settourPackage("Gujarat Tour Packages");
+            settourName("Goa Tour");
+            settourParaOne(" Goa, state of India, comprising a mainland district on the country’s southwestern coast and an offshore island ");
+            settourParaTwo( " It is located about 250 miles (400 km) south of Mumbai (Bombay). One of India’s smallest states, it is bounded by the states of Maharashtra on the north and Karnataka on the east and south and by the Arabian Sea on the west. The capital is Panaji (Panjim), on the north-central coast of the mainland district. " )
+            settourPackage("Goa Tour Packages");
+            let packages = [
+              {
+                name : "Goa Vacation",      
+                duration: "04 Nights/ 05 days",
+                destinations: "4N Goa",
+                description: "Day1 Arrive in Goa | Day2 Sightseeing in North Goa ( Fort Aguada, Sinquerim Beach, Calangute Beach, Baga Beach, Anjuna, Vagator Beach and Chapora Fort ) | Day3 In Goa | Day4 In Goa  | Day5  Departure from Goa "
+              },
+          ]
+            setPackageList(packages);
           }, []);
     }
     

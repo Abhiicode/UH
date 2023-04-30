@@ -13,7 +13,7 @@ const Package = () => {
                     <PackageCard img_url="./images/kashmir-tour.jpg" img_heading="Kerala Tour Packages" img_desc="Planning for a Kerala trip? Here are our most popular and trending Kerala tour packages!" place ="KR"/>
                     <PackageCard img_url="./images/himachal-tour.jpg" img_heading="Himachal Tour Packages" img_desc="India is famed for its rich and abundant wilderness, and wildlife sighting is a must when on a trip..." place="HP" />
                     <PackageCard img_url="./images/kashmir-tour.jpg" img_heading="Jammu And Kashmir Tour" img_desc="Are you delighted for your honeymoon vacation? This is one such escape you will treasure..." place ="JK" />
-                    <PackageCard img_url="./images/gujrat-tour.jpg" img_heading="Gujarat Tour Packages" img_desc="Gujarat is one of the most adorable state on the western coast of India is the sixth largest state..." place="GR" />
+                    <PackageCard img_url="./images/goa-tour.jpg" img_heading="Goa Tour Packages" img_desc="Goa, state of India, comprising a mainland district on the country’s southwestern coast and an offshore island..." place="GA" />
                 </div>
             </div>
         </>
