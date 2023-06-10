@@ -10,7 +10,8 @@ const Card = (props) => {
 
     function handleClick(value) {
         //console.log(`/my-route/:state?${value}`);
-        navigate('/packages',{state:{place:`${value}`}}); 
+        //navigate('',{state:{place:`${value}`}});
+        window.location.href = `${value}`;
         // Replace '/my-route' with the actual route you want to redirect to
         // navigate('/my-route', { state: { optionalParam: 'rajasthan' } });
     }
@@ -22,7 +23,7 @@ const Card = (props) => {
                     <div className="card-body">
                         <h3>{props.img_heading}</h3>
                         <p className="card-text">{props.img_desc}</p>
-                        <button type="button" onClick={()=>handleClick(props.place)} className="btn btn-info">View Details</button>
+                        <button type="button" onClick={()=>handleClick(props.url)} className="btn btn-info">View Details</button>
                     </div>
             </div>
         </>
